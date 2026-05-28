@@ -12,6 +12,7 @@ in
       pkgs.git
       pkgs.pkg-config
       pkgs.libpng
+      pkgs.go
       python
       porymap
     ];
