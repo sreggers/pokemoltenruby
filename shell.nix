@@ -1,7 +1,7 @@
 { pkgs ? import <nixpkgs> {} }:
 
 let
-  # porymap = pkgs.callPackage ./porymap.nix {};
+  porymap = pkgs.callPackage ./porymap.nix {};
   python = pkgs.python3.withPackages (
     python-pkgs: []
   );
@@ -13,6 +13,6 @@ in
       pkgs.pkg-config
       pkgs.libpng
       python
-      # porymap
+      porymap
     ];
 }
