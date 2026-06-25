@@ -13,6 +13,7 @@ in
       pkgs.pkg-config
       pkgs.libpng
       pkgs.go
+      pkgs.mgba
       python
       porymap
     ];
